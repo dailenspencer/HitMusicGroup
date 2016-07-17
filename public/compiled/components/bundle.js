@@ -28581,17 +28581,27 @@
 			float: 'left'
 		};
 
+		var scrollToShop = function scrollToShop() {
+			$('html,body').animate({
+				scrollTop: $("#parallax-window-section-4").offset().top }, 2000);
+		};
+
+		var scrollToTourDates = function scrollToTourDates() {
+			$('html,body').animate({
+				scrollTop: $("#parallax-window-section-2").offset().top }, 2000);
+		};
+
 		return _react2.default.createElement(
 			'div',
 			{ 'class': 'NavLeftContainer', style: NavLeftStyle },
 			_react2.default.createElement(
 				'button',
-				{ id: 'NavBtnOne' },
+				{ id: 'NavBtnOne', onClick: scrollToTourDates },
 				'Tour Dates'
 			),
 			_react2.default.createElement(
 				'button',
-				{ id: 'NavBtnTwo' },
+				{ id: 'NavBtnTwo', onClick: scrollToShop },
 				'Shop'
 			)
 		);
@@ -28670,17 +28680,27 @@
 			float: 'right'
 		};
 
+		var scrollToContact = function scrollToContact() {
+			$('html,body').animate({
+				scrollTop: $("#BannerSec2").offset().top }, 2000);
+		};
+
+		var scrollToMusic = function scrollToMusic() {
+			$('html,body').animate({
+				scrollTop: $("#parallax-window-section-3").offset().top }, 2000);
+		};
+
 		return _react2.default.createElement(
 			'div',
 			{ 'class': 'NavLeftContainer', style: NavRightStyle },
 			_react2.default.createElement(
 				'button',
-				{ id: 'NavBtnThree' },
+				{ id: 'NavBtnThree', onClick: scrollToMusic },
 				'Music'
 			),
 			_react2.default.createElement(
 				'button',
-				{ id: 'NavBtnFour' },
+				{ id: 'NavBtnFour', onClick: scrollToContact },
 				'Contact'
 			)
 		);

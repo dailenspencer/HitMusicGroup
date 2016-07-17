@@ -13,12 +13,22 @@ const NavRightStyle = {
 	float: 'right',
 }
 
+const scrollToContact = () => {
+	$('html,body').animate({
+    	scrollTop: $("#BannerSec2").offset().top},
+    2000);
+};
 
+const scrollToMusic = () => {
+	$('html,body').animate({
+    	scrollTop: $("#parallax-window-section-3").offset().top},
+    2000);
+};
 
 return (
 	<div class="NavLeftContainer" style={NavRightStyle}>
-		<button id="NavBtnThree">Music</button>
-		<button id="NavBtnFour">Contact</button>
+		<button id="NavBtnThree" onClick={scrollToMusic}>Music</button>
+		<button id="NavBtnFour" onClick={scrollToContact}>Contact</button>
 	</div>
 )
  };

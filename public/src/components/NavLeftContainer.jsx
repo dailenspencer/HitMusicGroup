@@ -14,13 +14,23 @@ const NavLeftStyle = {
 }
 
 
+const scrollToShop = () => {
+	$('html,body').animate({
+    	scrollTop: $("#parallax-window-section-4").offset().top},
+    2000);
+};
 
+const scrollToTourDates = () => {
+	$('html,body').animate({
+    	scrollTop: $("#parallax-window-section-2").offset().top},
+    2000);
+};
 
 
 return (
 	<div class="NavLeftContainer" style={NavLeftStyle}>
-		<button id="NavBtnOne">Tour Dates</button>
-		<button id="NavBtnTwo">Shop</button>
+		<button id="NavBtnOne" onClick={scrollToTourDates}>Tour Dates</button>
+		<button id="NavBtnTwo" onClick={scrollToShop}>Shop</button>
 
 	</div>
 )
