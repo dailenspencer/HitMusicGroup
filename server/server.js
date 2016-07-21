@@ -5,7 +5,10 @@ app.use(express.static(path.join(__dirname,'../public/')));
 
 app.use('/bower_components',  express.static(__dirname + '../public/bower_components'));
 
-
+app.get('/', function(req,res){
+	console.log('__dirname is : ',__dirname)
+	res.sendFile(path.join(__dirname,'../public/index.html'));
+})
 app.get('*', function(req,res){
 	console.log('__dirname is : ',__dirname)
 	res.sendFile(path.join(__dirname,'../public/index.html'));
