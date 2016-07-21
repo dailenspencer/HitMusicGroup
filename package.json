@@ -5,9 +5,6 @@
   "author": "Dailen Spencer",
   "license": "UNLICENSED",
   "scripts": {
-    "clean-and-copy": "",
-    "clean-dist":"",
-    "copy-files":"",
     "start": "node ./server/server.js",
     "build": "webpack --env.dev --watch",
     "build:prod": "webpack --env.prod -p",
