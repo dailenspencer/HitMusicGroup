@@ -1,0 +1,42 @@
+#MusicBackground {
+  background: url('https://i.ytimg.com/vi/tQBYm7_1hqs/maxresdefault.jpg') no-repeat center center fixed;
+  width:100%;
+  height:100%;
+  background-size: cover;
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+
+#MusicContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+
+.Album {
+	width:300px;
+	height:300px;
+	background-color: black;
+	opacity: 0.9;
+}
+
+#FirstAlbum {
+	margin-left: 10px;
+	background: url('https://upload.wikimedia.org/wikipedia/en/b/b6/SeanKingston-Tomorrowalbumcover.jpg') no-repeat center;
+    background-size: cover;  
+}
+
+#SecondAlbum {
+	background: url('https://upload.wikimedia.org/wikipedia/en/1/15/Sean_Kingston_Back_2_Life.jpg') no-repeat center;
+	background-size: cover; 
+}
+
+#ThirdAlbum {
+	margin-right: 10px;
+	background: url('http://ima.ulximg.com/image/src/cover/1296752177_93042688ef0add2588b14bf0047eed32.jpg/ebc94b5232fb76be7dd6f7a0770bb6c7/1296752177_kingofkingzfront.jpg') no-repeat center;
+	background-size: cover; 
+}

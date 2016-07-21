@@ -15,7 +15,7 @@ const NavRightStyle = {
 
 const scrollToContact = () => {
 	$('html,body').animate({
-    	scrollTop: $("#BannerSec2").offset().top},
+    	scrollTop: $("#BannerSec24").offset().top},
     2000);
 };
 

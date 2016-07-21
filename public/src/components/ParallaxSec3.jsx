@@ -2,6 +2,7 @@ import React from 'react';
 import ReactCSSTransitionGroup from 'react/lib/ReactCSSTransitionGroup';
 import TextField from 'material-ui/TextField';
 import {fullWhite} from 'material-ui/styles/colors';
+import {Link} from 'react-router'
 
 class ParallaxSec3 extends React.Component {
 	constructor(props){
@@ -40,7 +41,7 @@ class ParallaxSec3 extends React.Component {
 		return (
 			<div id={"parallax-window-section-3"} data-parallax={"scroll"} data-position={"top"} data-bleed={"10"} data-image-src={"images/Shanghai.png"} data-natural-width={"1400"} data-natural-height={"900"}>
 			<form id={"mediaform"}method={"POST"}>
-				<h id={"mediaformheader"}>Music ></h>
+				<Link to='/Music' id={"musicheader"}> Music > </Link>
 			</form>
     		</div>
 		)

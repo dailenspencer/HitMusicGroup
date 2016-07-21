@@ -1,4 +1,5 @@
 module.exports = {
+    devtool: 'source-map',
     entry: ["./public/index.js"],
     output: {
         path: __dirname + '/public/compiled/components',
