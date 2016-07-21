@@ -5,8 +5,6 @@
   "author": "Dailen Spencer",
   "license": "UNLICENSED",
   "scripts": {
-    "test": "karma start",
-    "watch:test": "karma start --auto-watch --no-single-run",
     "start": "node ./server/server.js",
     "build": "webpack --env.dev --watch",
     "build:prod": "webpack --env.prod -p",
