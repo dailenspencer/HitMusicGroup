@@ -1,11 +1,14 @@
 var express = require('express');
+var path = require('path');
 app = express();
 app.use(express.static('../public'));
 
 app.use('/bower_components',  express.static(__dirname + '../public/bower_components'));
 
 
-
+app.get('*', function(req,res){
+	res.sendFile(path.resolve('../public','index.html'));
+})
 
 var server = app.listen(8083, function() {
 
