@@ -13,10 +13,11 @@
     "build:prod": "webpack --env.prod -p",
     "lint": "eslint .",
     "serve": "node ./server/server.js",
-    "postinstall":"bower install"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "body-parser": "^1.15.1",
+    "bower": "^1.7.9",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "flexbox": "0.0.3",
