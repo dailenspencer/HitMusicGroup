@@ -14,7 +14,6 @@ class MainMessage extends React.Component {
 
 	componentDidMount() {
 		var divs = $('#MainMessageText');
-		
 		window.addEventListener("scroll",function(){
 			var scrollTop = $(window).scrollTop();
     		var height = $(window).height();
