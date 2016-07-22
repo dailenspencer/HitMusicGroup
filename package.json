@@ -4,8 +4,10 @@
   "description": "Travel Projects",
   "author": "Dailen Spencer",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "4.1.1"
+  },
   "scripts": {
-
     "start": "node ./server/server.js",
     "build": "webpack --env.dev --watch",
     "build:prod": "webpack --env.prod -p",
