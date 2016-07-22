@@ -11,14 +11,12 @@ app.get('*', function(req,res){
 	res.sendFile(path.join(__dirname,'../public/index.html'));
 })
 
-app.set('port', process.env.port || 8083)
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(process.env.PORT || 8083, function() {
 	console.log(process.env.port,"PORTT");
-    var host = server.address().address
     var port = server.address().port
 
-    console.log("HitMusicGroup app listening at port", host, port)
+    console.log("HitMusicGroup app listening at port", port)
 
 })
 
