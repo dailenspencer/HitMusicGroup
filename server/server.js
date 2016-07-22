@@ -11,9 +11,9 @@ app.get('*', function(req,res){
 	res.sendFile(path.join(__dirname,'../public/index.html'));
 })
 
-app.set('port', process.env.port || 8083)
+var port = process.env.port || 8083;
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(port, function() {
 
     var host = server.address().address
     var port = server.address().port
