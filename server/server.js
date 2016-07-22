@@ -14,7 +14,7 @@ app.get('*', function(req,res){
 app.set('port', process.env.port || 8083)
 
 var server = app.listen(app.get('port'), function() {
-
+	console.log(process.env.port,"PORTT");
     var host = server.address().address
     var port = server.address().port
 
