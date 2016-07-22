@@ -11,7 +11,6 @@ import Routes from './routes'
 console.log('running index.js');
 
 
-
 ReactDOM.render(
 	(
 		<Router history={browserHistory} routes={Routes}/>
