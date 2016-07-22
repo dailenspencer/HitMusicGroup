@@ -12,6 +12,7 @@ app.get('*', function(req,res){
 })
 
 var port = process.env.port || 8083;
+console.log(process.env.port, "PORTTTTTTTTTTTTTTTTT");
 
 var server = app.listen(port, function() {
 
