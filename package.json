@@ -5,12 +5,13 @@
   "author": "Dailen Spencer",
   "license": "UNLICENSED",
   "scripts": {
-    "postinstall":"bowerinstall",
+
     "start": "node ./server/server.js",
     "build": "webpack --env.dev --watch",
     "build:prod": "webpack --env.prod -p",
     "lint": "eslint .",
-    "serve": "node ./server/server.js"
+    "serve": "node ./server/server.js",
+     "postinstall":"bowerinstall"
   },
   "dependencies": {
     "body-parser": "^1.15.1",
