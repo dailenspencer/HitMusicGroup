@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactCSSTransitionGroup from 'react/lib/ReactCSSTransitionGroup';
-
+import $ from 'jquery';
 
                              
 class MainMessage extends React.Component {
