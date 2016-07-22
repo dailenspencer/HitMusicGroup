@@ -12,7 +12,8 @@
     "build": "webpack --env.dev --watch",
     "build:prod": "webpack --env.prod -p",
     "lint": "eslint .",
-    "serve": "node ./server/server.js"
+    "serve": "node ./server/server.js",
+    "postinstall":"bower install"
   },
   "dependencies": {
     "body-parser": "^1.15.1",
