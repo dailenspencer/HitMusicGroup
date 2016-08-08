@@ -13,9 +13,15 @@ class Footer extends React.Component {
   render() {
 		return (
         	<div id="Footer" name="Footer">
-        		<h id="FooterTitle">Hit Music Group</h>
-        		<h id="MainArtist">Famous Dex , Rich The Kid</h>
-                <h id="SecondaryArtist">Ugly God , trill Sammy x dice soho , black youngsta</h>
+            <h id="DigitalPress">Digital Press</h>
+        		<div id="FooterFirstRow">
+              <img src="../../images/fader.png"/><img src="../../images/uproxx.png"/><img src="../../images/hiphopdx.png"/><img src="../../images/24hourhiphop.png"/><img src="../../images/complex.png"/>
+              
+            </div>
+            <div id="FooterSecondRow">
+              <img src="../../images/VIBE.png"/><img src="../../images/XXL.png"/><img src="../../images/hotnewhiphop.png"/>
+            </div>
+            <div id="FooterSecondRow"></div>
     		  </div>
     	)
   	}

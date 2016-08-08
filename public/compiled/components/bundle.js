@@ -50191,19 +50191,26 @@
 	        { id: 'Footer', name: 'Footer' },
 	        _react2.default.createElement(
 	          'h',
-	          { id: 'FooterTitle' },
-	          'Hit Music Group'
+	          { id: 'DigitalPress' },
+	          'Digital Press'
 	        ),
 	        _react2.default.createElement(
-	          'h',
-	          { id: 'MainArtist' },
-	          'Famous Dex , Rich The Kid'
+	          'div',
+	          { id: 'FooterFirstRow' },
+	          _react2.default.createElement('img', { src: '../../images/fader.png' }),
+	          _react2.default.createElement('img', { src: '../../images/uproxx.png' }),
+	          _react2.default.createElement('img', { src: '../../images/hiphopdx.png' }),
+	          _react2.default.createElement('img', { src: '../../images/24hourhiphop.png' }),
+	          _react2.default.createElement('img', { src: '../../images/complex.png' })
 	        ),
 	        _react2.default.createElement(
-	          'h',
-	          { id: 'SecondaryArtist' },
-	          'Ugly God , trill Sammy x dice soho , black youngsta'
-	        )
+	          'div',
+	          { id: 'FooterSecondRow' },
+	          _react2.default.createElement('img', { src: '../../images/VIBE.png' }),
+	          _react2.default.createElement('img', { src: '../../images/XXL.png' }),
+	          _react2.default.createElement('img', { src: '../../images/hotnewhiphop.png' })
+	        ),
+	        _react2.default.createElement('div', { id: 'FooterSecondRow' })
 	      );
 	    }
 	  }]);
