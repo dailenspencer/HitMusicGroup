@@ -189,6 +189,25 @@
     background-image: url('../images/surfers.jpg');
     background-size: cover;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+
+#SocialMediaHeader {
+    font-size: 60px;
+    color:white;
+    font-family: 'Amatic SC' ;
+    padding-bottom: 50px;
+}
+
+#icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
 }
 
 #icon-facebook {
@@ -197,15 +216,13 @@
     border-color: white;
     border-width: 1px;
     background-image: url('../images/facebook-letter-logo.png');
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-    top:50%;
-    left:25%;
     border-style: solid;
     border-radius: 27.5px;
     background-size: contain;
-
+    cursor: pointer;
 }
+
+
 
 #icon-instagram {
     width:55px;
@@ -213,14 +230,13 @@
     border-color: white;
     border-width: 1px;
     background-image: url('../images/instagram-symbol.png');
-    position: absolute;
-    top:50%;
-    right:25%;
+    background-size: contain;
     border-style: solid;
     border-radius: 27.5px;
-    transform: translateY(-50%);
-    background-size: contain;
+    cursor: pointer;
 }
+
+
 
 #Banner2SecRight {
     float: right;
@@ -228,8 +244,22 @@
     height: 100%;
     background-image: url('../images/OverheadSurf.jpg');
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    font-family: 'Amatic SC' ;
 }
 
+#BookingHeader {
+    font-size: 60px;
+}
+
+#Banner2SecRight p {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
 
 #Footer {
     background-color: black;

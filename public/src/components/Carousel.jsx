@@ -16,7 +16,7 @@ class Carousel extends React.Component {
 
   componentDidMount() {
       $('#parallax-window').parallax({
-        imageSrc: 'images/SeanFrontDoor.jpg'
+        imageSrc: 'images/DJTwinRangeRover.jpg'
       });
   }
 

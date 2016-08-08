@@ -12,7 +12,7 @@ class ParallaxSec2 extends React.Component {
 
 	componentDidMount() {
 	    $('#parallax-window-section-2').parallax({
-        	imageSrc: 'images/SeanStage.jpg'
+        	imageSrc: 'images/rage.jpg'
       	});
 	}
 

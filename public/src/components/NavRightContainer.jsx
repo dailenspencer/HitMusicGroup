@@ -15,7 +15,7 @@ const NavRightStyle = {
 
 const scrollToContact = () => {
 	$('html,body').animate({
-    	scrollTop: $("#BannerSec24").offset().top},
+    	scrollTop: $("#BannerSec2").offset().top},
     2000);
 };
 
@@ -28,7 +28,7 @@ const scrollToMusic = () => {
 return (
 	<div class="NavLeftContainer" style={NavRightStyle}>
 		<button id="NavBtnThree" onClick={scrollToMusic}>Music</button>
-		<button id="NavBtnFour" onClick={scrollToContact}>Contact</button>
+		<button id="NavBtnFour" onClick={scrollToContact}>Booking</button>
 	</div>
 )
  };

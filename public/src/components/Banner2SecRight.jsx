@@ -14,14 +14,9 @@ export default (props) => {
 
 return (
     <div id="Banner2SecRight" name="Banner2SecRight">
-    <MuiThemeProvider muiTheme={muiTheme}>
-    	<TextField
-    		style ={{top: '50%',left: '50%', transform: 'translateX(-50%) translateY(-50%)', textColor:'white'}}
-      		hintText="Email"
-      		floatingLabelText="Subscribe"
-    	/>
- 	</MuiThemeProvider>
-    	
+      <h id="BookingHeader">Booking</h>
+      <p>Kirk Kingston</p>
+      <p>kirkkingston@gmail.com</p>
     </div>
 )
 };
